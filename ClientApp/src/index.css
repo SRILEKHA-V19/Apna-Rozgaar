@@ -1,0 +1,43 @@
+body {
+    
+    background-color: #0c0e21;
+}
+
+/*Header*/
+#header-of-of{
+    background-color: #1f1e3c;
+}
+
+#content-of-of {
+}
+
+#img-logo {
+    padding-top: 1.1%;
+}
+
+
+#title-of-of {
+    padding-top: 1%;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+@media (max-width: 732px) {
+    #img-logo {
+        padding-top: 3%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    #img-logo {
+        padding-top: 6%;
+    }
+}
+
+
+
